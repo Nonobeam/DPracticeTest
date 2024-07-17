@@ -1,24 +1,4 @@
 plugins {
-    id 'java-library'
+    id 'buildlogic.java-library-conventions'
 }
 
-repositories {
-    mavenCentral() 
-}
-
-dependencies {
-    implementation 'org.apache.commons:commons-text'
-    testImplementation 'junit:junit:4.4'
-}
-
-tasks.named('test', Test) {
-    useJUnitPlatform()
-
-    testLogging {
-        events "passed"
-    }
-
-    testLogging {
-        events "failed"
-    }
-}
