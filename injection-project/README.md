@@ -19,6 +19,10 @@ b. Compile Main class <br>
 
 ## 1 line solution
 
+(Window command line) <br>
 ```javac -d target/classes library/src/app/*.java && javac -d target/classes -cp target/classes main/src/project/Main.java && jar cvf target/Main.jar -C target/classes  . && java -cp target/Main.jar project.Main```
+
+(PowerShell) <br>
+```javac -d target/classes library/src/app/*.java ; javac -d target/classes -cp target/classes main/src/project/Main.java l jar cvf target/Main.jar -C target/classes  . ; java -cp target/Main.jar project.Main```
 
 
