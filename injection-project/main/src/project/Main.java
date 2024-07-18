@@ -1,6 +1,6 @@
+package project;
 
-
-import common.Calculator;
+import app.Calculator;
 
 public class Main {
     public static void main(String[] args) {

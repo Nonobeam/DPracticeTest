@@ -1,7 +1,11 @@
 package hello;
 
+import hello.Calculator;
+
 public class HelloWorld {
     public static void main(String[] args) {
-      System.out.println("Hello, World!");
+      Calculator calculator = new Calculator();
+      int sum = calculator.add(1, 2);
+      System.out.println(sum);
     }
 }

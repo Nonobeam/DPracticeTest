@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-Built-By: phuc
-Main-Class: project.Main
