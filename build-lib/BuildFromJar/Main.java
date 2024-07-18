@@ -1,7 +1,6 @@
 package BuildFromJar;
 
 import java.sql.Connection;
-
 import dao.DbBuilder;
 
 public class Main {

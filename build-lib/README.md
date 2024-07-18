@@ -4,7 +4,7 @@
 * Build From Jar file 
 
 *** Build Main.class ***
-- Step 1: <br>
+- Step 1: Create class file <br>
 ```javac -d . -cp .;lib/mysql-connector-j-8.0.33.jar BuildFromJar.Main.java```
 
 - Step 2: <br>
