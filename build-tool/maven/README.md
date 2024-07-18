@@ -21,3 +21,7 @@ mvn test -Dtest=CalculatorTest1 <br>
 
 # Running a single test method <br>
 mvn test -Dtest=CalculatorTest2#testMinus <br>
+
+
+
+Test-report: [test-report](target/surefire-reports/hello.CalculatorTest1.txt) <br>
