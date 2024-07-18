@@ -10,7 +10,7 @@ b. Compile Main class <br>
 ```javac -d target/classes -cp target/classes main/src/project/Main.java``` <br>
 
 ### Build jar to run
-1. We will build this into jar file
+1. We will build this into jar file <br>
 ```jar cvf target/Main.jar -C target/classes  .```
 
 ### Finally run it
@@ -19,6 +19,6 @@ b. Compile Main class <br>
 
 ## 1 line solution
 
-```javac -d target/classes library/src/app/Calculator.java && javac -d target/classes -cp target/classes main/src/project/Main.java && jar cvf target/Main.jar -C target/classes  . && java -cp target/Main.jar project.Main```
+```javac -d target/classes library/src/app/*.java && javac -d target/classes -cp target/classes main/src/project/Main.java && jar cvf target/Main.jar -C target/classes  . && java -cp target/Main.jar project.Main```
 
 
